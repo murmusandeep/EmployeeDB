@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/employeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/employeeEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_below="@id/employeeName"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/employeeContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact"
+            android:layout_below="@id/employeeEmail"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_below="@id/employeeContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/edit"
+                android:text="@string/edit"
+                android:textAllCaps="false"
+                android:layout_marginEnd="5dp"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/delete"
+                android:text="@string/delete"
+                android:textAllCaps="false"
+                android:layout_marginEnd="5dp"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

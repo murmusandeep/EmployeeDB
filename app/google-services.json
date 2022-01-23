@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "122386823301",
+    "firebase_url": "https://employeedb-1b28c-default-rtdb.firebaseio.com",
+    "project_id": "employeedb-1b28c",
+    "storage_bucket": "employeedb-1b28c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122386823301:android:4bbb9a5eeb61648e8791ec",
+        "android_client_info": {
+          "package_name": "com.sandeep.employeedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122386823301-ribgj5sggf9i96qkq4m1ogg8jvpfg2u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCROU-4HPzG-lZzRjKdpfeqeWrwvTqqT3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122386823301-ribgj5sggf9i96qkq4m1ogg8jvpfg2u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
